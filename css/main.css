@@ -1,0 +1,287 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+p {margin: 0; padding: 0;}
+body{
+  font: 400 16px/24px Macan,Helvetica Neue,Helvetica,Arial,sans-serif;
+  margin: 0!important;
+  padding: 0!important;
+}
+.container{
+  max-width: 1220px!important;
+}
+.nav-link {
+  color: gray;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 0!important;
+  color: #62646a!important;
+}
+.categorycolor{
+  color: #7A7D85!important;
+  font-size: 16px;
+}
+.navslide{
+  overflow: hidden;
+  display: inline-block;
+}
+.nav-link:hover{
+  color: #1dbf73!important;
+}
+.join{
+  border: 1px solid #1dbf73;
+  color: #1dbf73!important;
+  border-radius: 5px;
+  padding: 2px 22px !important;
+}
+.join:hover{
+  background-color: #239660;
+  color: white!important;
+}
+.searchinputitem {
+  position: relative;
+}
+.fas.fa-search.searchicon {
+  position: absolute;
+  top: 11px;
+  left: 8px;
+  font-size: 13px;
+}
+.search {
+  padding-left: 30px;
+  padding-top: 2px;
+  padding-bottom: 4px;
+  outline: none;
+}
+
+.searchhbtn {
+  background-color: #1dbf73;
+  font-weight: 600;
+  font-size: 16px;
+  font-family: sans-serif;
+  color: white;
+  border-radius: 0px 2px 2px 0px;
+  margin: 0;
+  padding: 0px 9px;
+  outline: none !important;
+  border: none;
+}
+
+.searchhbtn:hover{
+  background-color: #239660;
+}
+
+.bg-trusted{
+  background-color: #FAFAFA;
+}
+/* Slider */
+.slider{
+  padding: 100px 0px;
+  height: 600px;
+}
+/* Search Button */
+.b-m-a-btn{
+  position: relative;
+  right: -626px;
+  padding: 16px 20px;
+  border-radius: 0 4px 4px 0;
+}
+/* Search History */
+.popular {
+  font-size: 16px;
+  margin: 20px 10px;
+  color: #fff;
+}
+.webDesign, .wp, .ld, .nft-art {
+  font-size: 12px;
+  margin: 20px 10px;
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  padding: 2px 10px;
+  border: 1px solid #fff;
+  border-radius: 30px 30px 30px 30px;
+}
+
+.webDesign:hover{
+  background-color: #fff;
+  color: #000;
+}
+.wp:hover{
+  background-color: #fff;
+  color: #000;
+}
+.ld:hover{
+  background-color: #fff;
+  color: #000;
+}
+.nft-art:hover {
+  background-color: #fff;
+  color: #000;
+}
+/* pps slider */
+.container .pps-slider {
+  margin-top: 80px;
+}
+.container .pps-slider>.pps-text{
+  font-weight: bold;
+  margin-bottom: 25px;
+  color:#404145;
+}
+.item{
+  width: 200px;
+  padding: 15px;
+  height: 300px;
+  margin: 5px;
+  background-color: green;
+  color: white;
+  border-radius: 5px;
+}
+.item>span{
+  font-family: Arial;
+}
+.item>h3,h4{
+  font-weight: bold;
+}
+.item1{
+  background-image: url(../img/ps/logo-design-2x.webp);
+  background-size: cover;
+}
+.item2{
+  background-image: url(../img/ps/wordpress-2x.webp);
+  background-size: cover;
+}
+.item3{
+  background-image: url(../img/ps/voiceover-2x.webp);
+  background-size: cover;
+}
+.item4{
+  background-image: url(../img/ps/animated-explainer-2x.jpg);
+  background-size: cover;
+}
+.item5{
+  background-image: url(../img/ps/social-2x.webp);
+  background-size: cover;
+}
+.item6{
+  background-image: url(../img/ps/seo-2x.webp);
+  background-size: cover;
+}
+.item7{
+  background-image: url(../img/ps/illustration-2x.webp);
+  background-size: cover;
+}
+.item8{
+  background-image: url(../img/ps/translation-2x.webp);
+  background-size: cover;
+}
+.item9{
+  background-image: url(../img/ps/data-entry-2x.webp);
+  background-size: cover;
+}
+.item10{
+  background-image: url(../img/ps/book-covers-2x.webp);
+  background-size: cover;
+}
+/* Selling Proposition */
+.selling-proposition {
+  background-color: #F2FEF7;
+  padding: 100px 0px;
+}
+ol,ul {
+  padding-left: 0rem!important;
+}
+/* Explore the marketing */
+.explore-main{
+  padding: 80px 0px;
+}
+.explore-main .explore>h2{
+  padding: 40px 0px;
+  font-weight: bold;
+}
+.explore-main .explore-ul{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+}
+.explore-main .explore-li>a{
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+  padding: 30px;
+}
+.explore-main .explore-li>a>.border-bottom{
+  width: 30px; 
+  height: 2px;
+  margin: 10px 0px;
+  background-color: #747474;
+}
+.explore-main .explore-li>a>img{
+  width: 50px;
+  padding: 5px;
+}
+.explore-main .explore-li>a:hover .border-bottom{
+  width: 80px;
+  transition: .4s;
+  background-color: green;
+}
+/* Fiverr Business */
+.fiverr-business{
+  background-color: #0D084D;
+  padding: 100px;
+  color: #fff;
+}
+.fiverr-business .fiverr-business-content .new{
+  color: #fff;
+  background-color: #7400FF;
+  border: 1px solid #fff;
+  padding: 1px 6px;
+  border-radius: 30px;
+}
+.fiverr-business .fiverr-business-content>small>span{
+  margin-left: 15px;
+}
+.fiverr-business .fiverr-business-content>.font-domaine{
+  margin-top: 30px;
+  color: #fff;
+}
+.fiverr-business .fiverr-business-content>.business-upgrade{
+  color: #fff;
+  margin-top: 30px;
+  font-size: 22px;
+}
+.fiverr-business .fiverr-business-content ul{
+  margin-top: 15px;
+}
+.fiverr-business .fiverr-business-content ul li{
+  padding: 10px;
+}
+.fiverr-business .fiverr-business-content .explore-fiverr-business{
+  background-color: #188652;
+  text-decoration: none;
+  color: #fff;
+  padding: 15px 25px;
+  font-weight: bold;
+  border-radius: 5px;
+  font-family: arial;
+}
+.fiverr-business .fiverr-business-content .explore-fiverr-business:hover{
+  background: #19a463;
+}
+/* Testimonial */
+.TimAndDanJoo {
+  display: flex;
+  align-items: center;
+}
+.TestimonialPre,.TestimonialNext span{
+  background-color: gray;
+}
+.testimonialVideo {
+  border-radius: 5px;
+}
